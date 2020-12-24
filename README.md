@@ -1,8 +1,7 @@
 # Basic type
-- any, void, boolean, number, string, null, undefined, Array<string>, tuple
-string | null | undefined /* union */
+- any, void, boolean, number, string, null, undefined, Array<string>, tuple, string | null | undefined
 
-- never /* unreachable */
+- never
 
 # Interface
 - Inline
