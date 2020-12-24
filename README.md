@@ -1,15 +1,16 @@
-# Basic type
+# NCC type-script
+## Basic type
 - any, void, boolean, number, string, null, undefined, Array<string>, tuple, string | null | undefined
 
 - never
 
-# Interface
+## Interface
 - Inline
 - Explicit
 - Optional properties
 - Read only
 - Dynamic keys
-# Type
+## Type
 - Literal type
 - Type alias
 - Function type
@@ -17,11 +18,11 @@
 - Generic
 - Class
 - Enum
-# Declaration file
-# Decorator
+## Declaration file
+## Decorator
 - class decorator
 - method decorator
 - property decorator
 - accessor decorator
 - parameter decorator
-# Metadata reflection
+## Metadata reflection
