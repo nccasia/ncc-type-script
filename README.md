@@ -1,0 +1,28 @@
+# Basic type
+- any, void, boolean, number, string, null, undefined, Array<string>, tuple
+string | null | undefined /* union */
+
+- never /* unreachable */
+
+# Interface
+- Inline
+- Explicit
+- Optional properties
+- Read only
+- Dynamic keys
+# Type
+- Literal type
+- Type alias
+- Function type
+- Union & Intersection Types
+- Generic
+- Class
+- Enum
+# Declaration file
+# Decorator
+- class decorator
+- method decorator
+- property decorator
+- accessor decorator
+- parameter decorator
+# Metadata reflection
