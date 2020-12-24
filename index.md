@@ -3,6 +3,7 @@ https://nccasia.github.io/ncc-type-script/
 
 
 # NCC type-script
+
 ## Basic type
 - any, void, boolean, number, string, null, undefined, Array<string>, tuple, string | null | undefined
 
@@ -14,6 +15,7 @@ https://nccasia.github.io/ncc-type-script/
 - Optional properties
 - Read only
 - Dynamic keys
+
 ## Type
 - Literal type
 - Type alias
@@ -22,11 +24,14 @@ https://nccasia.github.io/ncc-type-script/
 - Generic
 - Class
 - Enum
+
 ## Declaration file
+
 ## Decorator
 - class decorator
 - method decorator
 - property decorator
 - accessor decorator
 - parameter decorator
+
 ## Metadata reflection
