@@ -1,3 +1,7 @@
+
+https://nccasia.github.io/ncc-type-script/
+
+
 # NCC type-script
 ## Basic type
 - any, void, boolean, number, string, null, undefined, Array<string>, tuple, string | null | undefined
