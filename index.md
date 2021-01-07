@@ -3,7 +3,7 @@ https://nccasia.github.io/ncc-type-script/
 
 
 # NCC type-script
-## [Overview](https://github.com/nccasia/ncc-type-script/blob/main/lessons/00-overview.md)
+## [Overview](/lessons/00-overview.md)
 
 ## Basic type
 
