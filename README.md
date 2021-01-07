@@ -3,7 +3,7 @@ https://nccasia.github.io/ncc-type-script/
 
 
 # NCC type-script
-[## Basic type](https://github.com/nccasia/ncc-type-script/blob/main/lessons/01-basic-type)
+## [Basic type](https://github.com/nccasia/ncc-type-script/blob/main/lessons/01-basic-type)
 
 - any, void, boolean, number, string, null, undefined, Array<string>, tuple, string | null | undefined
 
