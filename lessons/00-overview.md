@@ -36,3 +36,7 @@ To be honest, there is a slight hassle to this and it may be one of the reasons 
 
 ### Debugging TypeScript
 Many browsers and IDEs offer direct debugging support through sourcemaps. See this Stack Overflow question for more details: Debugging TypeScript code with Visual Studio.
+
+
+Refer to:
+https://stackoverflow.com/questions/12694530/what-is-typescript-and-why-would-i-use-it-in-place-of-javascript
