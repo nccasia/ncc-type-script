@@ -26,7 +26,7 @@ https://nccasia.github.io/ncc-type-script/
 - Class
 - Enum
 ## Declaration file
-## Decorator
+## [Decorator](https://github.com/nccasia/ncc-type-script/blob/main/lessons/01-decorator.md)
 - class decorator
 - method decorator
 - property decorator
