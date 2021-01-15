@@ -1,4 +1,5 @@
-Class decorator: được khai báo trước khi khai báo class ngay bên trên và nó apply cho contructor của class để sử dụng, chỉnh sửa or thay thế định nghĩa của class.
+# Class decorator: 
+được khai báo trước khi khai báo class ngay bên trên và nó apply cho contructor của class để sử dụng, chỉnh sửa or thay thế định nghĩa của class.
 Ví dụ:
 
 JavaScript
@@ -34,7 +35,8 @@ console.log(new Student("Alice"));
 console.log(new Student("Alice"));
 Method decorator
 
-Method decorator được khai báo với 3 params:
+# Method decorator:
+ Method decorator được khai báo với 3 params:
 – Target: class chứa method đó
 – Tên member được decorate (chính là tên method)
 – Property descriptor
@@ -60,7 +62,7 @@ function enumerable(value: boolean) {
 
 @enumerable(false) ở đây là một method decorator, khi decorator @enumerable(false) được gọi, nó sữa sửa đổi thuộc tính enumerable của descriptor.
 
-Accessor decorator
+# Accessor decorator
 Tương tự với 2 decorator trên, accessor decorator dùng để decorate cho accessor của 1 property nào đó, tuy nhiên chúng ta chỉ định nghĩa decorate với accessor nào (get or set ) được viết trước tiên.
 Ví dụ dưới đây là 1 accessor decorator được áp dụng cho 1 member của Demo class :
 
@@ -80,7 +82,7 @@ class Demo {
 set name(input: string): void {
 }
 
-Parameter decorator
+# Parameter decorator
 Decorator loại này được định nghĩa ngay trước 1 parameter – có thể là 1 param của 1 function hoặc của constructor của Class.
 Parameter decorator nhận đầu vào là 3 params
 * class đầu vào.
