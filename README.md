@@ -34,4 +34,5 @@ https://nccasia.github.io/ncc-type-script/
 - parameter decorator
 ## Metadata reflection
 ## [Static Type Checking](https://github.com/nccasia/ncc-type-script/blob/main/lessons/02-static-type-checking.md)
+https://docs.google.com/spreadsheets/d/10PG80jN6JebA-rpDfwd5dz-crpHFXg1OWn3dD5SSAAA/edit#gid=0
 
