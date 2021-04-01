@@ -19,7 +19,7 @@ Now since we have a basic understanding of what types are and how type checking 
 A language is statically-typed if the type of a variable is known at compile-time instead of at run-time. Common examples of statically-typed languages include Java, C, C++, FORTRAN, Pascal and Scala.
 In Statically typed languages, once a variable has been declared with a type, it cannot ever be assigned to some other variable of different type and doing so will raise a type error at compile-time(some IDE’s generally shows a Red Cross mark denoting the error).
 
-[Type declaration constraints]: https://miro.medium.com/max/386/1*75q760EAOyR9egJCEODu1w.png)
+[logo]: https://miro.medium.com/max/386/1*75q760EAOyR9egJCEODu1w.png "Type declaration constraints"
 
 ## Example
 Statically-typed languages require you to declare the data types of your variables before you use them
