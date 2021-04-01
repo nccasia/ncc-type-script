@@ -38,7 +38,8 @@ For a list of languages with static type checking, see the category for statical
 A language is dynamically-typed if the type of a variable is checked during run-time. Common examples of dynamically-typed languages includes JavaScript, Objective-C, PHP, Python, Ruby, Lisp, and Tcl.
 In Dynamically typed languages, variables are bound to objects at run-time by means of assignment statements, and it is possible to bind the same variables to objects of different types during the execution of the program.
 
-[Type declaration constraints]: https://miro.medium.com/max/146/1*YlHmP3TaXSvdnGK-Gn5z3Q.png
+[logo]: https://miro.medium.com/max/146/1*YlHmP3TaXSvdnGK-Gn5z3Q.png "Type declaration constraints"
+
 Dynamic type checking typically results in less optimized code than static type checking. It also includes the possibility of run time type errors and forces run time checks to occur for every execution of the program (instead of just at compile-time).
 Python Example
 Dynamically-typed languages do not require you to declare the data types of your variables before you use them
