@@ -2,6 +2,7 @@ TypeScript is a superset of JavaScript, so some datatypes are inherited from it.
 
 ## Boolean: 
 is the simplest datatype, it is used to represent a logical value and can have only 2 values: true or false. It is the same as JavaScript boolean primitive type.
+    
     ```typescript
     let isBoolean: boolean = true;
     let isLoading: boolean = false;
@@ -9,19 +10,23 @@ is the simplest datatype, it is used to represent a logical value and can have o
 
 ## Number:
 like in JavaScript, all numbers in TypeScript are floating point values. In addition to hexadecimal and decimal literals, TypeScript also supports binary and octal literals introduced in ECMAScript 2015.
+    
     ```typescript
     let decimal: number = 6;
     let hex: number = 0xf00d;
     let binary: number = 0b1010;
     let octal: number = 0o744;
     ```
+    
 ## String:
 is a textual datatype, it represents a sequence of characters stored as Unicode UTF-16 code. Just like JavaScript, TypeScript also uses double quotes " or single quotes to surround string data.
+
     ```typescript
     let str: string = 'this is a string';
     ```
     
 In TypeScript is also possible to use template strings, which can span multiple lines and have embedded expressions. These strings are surrounded by the backtick/backquote () character, and embedded expressions are of the form ${expr}.
+
     ```typescript
     let name: string = 'Riccardo';
     let age: number = 39;
@@ -31,6 +36,7 @@ In TypeScript is also possible to use template strings, which can span multiple 
     
 ## Array:
 like JavaScript, Array types can be written in one of two ways. In the first, you use the type of the elements followed by [] to denote an array of that element type:
+
     ```typescript
     let arrayOfNumbers: number[] = [1, 2, 3];
     The second way uses a generic array type, Array<elemType>:
@@ -38,9 +44,12 @@ like JavaScript, Array types can be written in one of two ways. In the first, yo
     ```
 ## Tuple:
 this type allow developers to express an array with a fixed number of elements whose types are known, but need not be the same. For example, you may want to represent a value as a pair of a string and a number:
+
     ```typescript
     let x: [string, number] = ['Hello World', 13];
+    ```
     Enum: this is a new feature of TypeScript and a helpful addition to the standard set of datatypes from JavaScript. An enum is a way of giving more friendly names to sets of numeric values.
+    ```typescript
     enum Colours { Red, Green, Blue};
     let colour: Colours = Colours.Green;
     ```
