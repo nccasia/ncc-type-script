@@ -50,23 +50,33 @@ this type allow developers to express an array with a fixed number of elements w
     ```
     
    Enum: this is a new feature of TypeScript and a helpful addition to the standard set of datatypes from JavaScript. An enum is a way of giving more friendly names to sets of numeric values.
+   
+   
     ```typescript
     enum Colours { Red, Green, Blue};
     let colour: Colours = Colours.Green;
     ```
     
+    
    By default, enum begins numbering their members starting at 0. But this can be changed by manually setting the value of one of its members or set all the values in the enum:
+   
+   
     ```typescript
     enum Colours { Red = 1, Green = 5, Blue = 20};
     ```
+    
    This means that using the values you can get the name of the colour in the example shown:
+   
     ```typescript
     enum Colours { Red = 1, Green = 5, Blue = 20};
     let colorName: string = Colours[5];
     ```
     
+    
 ## Any:
    when developers do not know the type of the value returning from an application or a third party library or the value dynamically changes every time a function is called, any is a placeholder to opt-out of type checking and let the values pass through compile-time checks.
+   
+   
     ```typescript
     let notSureAboutType: any = 5;
     notSureAboutType = 'reassigned as a string';
@@ -80,6 +90,7 @@ this is usually the absence of having any type at all. Developers may commonly u
     Object: object is a type that represents the non-primitive type, i.e. anything that is not number, string, boolean, bigint, symbol, null, or undefined.
     Type assertion: when there is a situation where developers know more about a value than TypeScript does, Type assertions are a way to tell the compiler to trust the value that is specified. It has no runtime impact, and is used purely by the compiler. TypeScript assumes that the programmers have performed any special checks that they need.
     Type assertions have two forms. One is the “angle-bracket” syntax:
+    
     ```typescript
     let variableName: any = 'Hello World';
     let strLenght: number = (<string>variableName).length;
