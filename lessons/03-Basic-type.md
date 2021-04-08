@@ -48,24 +48,25 @@ this type allow developers to express an array with a fixed number of elements w
     ```typescript
     let x: [string, number] = ['Hello World', 13];
     ```
-    Enum: this is a new feature of TypeScript and a helpful addition to the standard set of datatypes from JavaScript. An enum is a way of giving more friendly names to sets of numeric values.
+    
+   Enum: this is a new feature of TypeScript and a helpful addition to the standard set of datatypes from JavaScript. An enum is a way of giving more friendly names to sets of numeric values.
     ```typescript
     enum Colours { Red, Green, Blue};
     let colour: Colours = Colours.Green;
     ```
     
-    By default, enum begins numbering their members starting at 0. But this can be changed by manually setting the value of one of its members or set all the values in the enum:
+   By default, enum begins numbering their members starting at 0. But this can be changed by manually setting the value of one of its members or set all the values in the enum:
     ```typescript
     enum Colours { Red = 1, Green = 5, Blue = 20};
     ```
-    This means that using the values you can get the name of the colour in the example shown:
+   This means that using the values you can get the name of the colour in the example shown:
     ```typescript
     enum Colours { Red = 1, Green = 5, Blue = 20};
     let colorName: string = Colours[5];
     ```
     
 ## Any:
-    when developers do not know the type of the value returning from an application or a third party library or the value dynamically changes every time a function is called, any is a placeholder to opt-out of type checking and let the values pass through compile-time checks.
+   when developers do not know the type of the value returning from an application or a third party library or the value dynamically changes every time a function is called, any is a placeholder to opt-out of type checking and let the values pass through compile-time checks.
     ```typescript
     let notSureAboutType: any = 5;
     notSureAboutType = 'reassigned as a string';
