@@ -16,16 +16,19 @@ like in JavaScript, all numbers in TypeScript are floating point values. In addi
     let octal: number = 0o744;
     ```
 ## String:
-is a textual datatype, it represents a sequence of characters stored as Unicode UTF-16 code. Just like JavaScript, TypeScript also uses double quotes " or single quotes ' to surround string data.
+is a textual datatype, it represents a sequence of characters stored as Unicode UTF-16 code. Just like JavaScript, TypeScript also uses double quotes " or single quotes to surround string data.
     ```typescript
     let str: string = 'this is a string';
     ```
     
-    In TypeScript is also possible to use template strings, which can span multiple lines and have embedded expressions. These strings are surrounded by the backtick/backquote (`) character, and embedded expressions are of the form ${expr}.
+In TypeScript is also possible to use template strings, which can span multiple lines and have embedded expressions. These strings are surrounded by the backtick/backquote () character, and embedded expressions are of the form ${expr}.
+    ```typescript
     let name: string = 'Riccardo';
     let age: number = 39;
-    let sentence: string = `Hi my name is ${name}.
-    I will be age ${age + 1} next year.`;
+    let sentence: string = 'Hi my name is ${name}.
+    I will be age ${age + 1} next year.';
+    ```
+    
 ## Array:
 like JavaScript, Array types can be written in one of two ways. In the first, you use the type of the elements followed by [] to denote an array of that element type:
     ```typescript
