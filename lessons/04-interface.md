@@ -2,8 +2,6 @@
 Following are the notable differences between class and an interface.
 
 
-#### Following are the notable differences between class and an interface.
-
 |   |**TypeScript Class**   | **TypeScript Interface**  |
 | ------------ | ------------ | ------------ |
 |  **Introduction** |  Classes are the fundamental entities used to create reusable components. It is a group of objects which have common properties. It can contain properties like fields, methods, constructors, etc | An Interface defines a structure which acts as a contract in our application. It contains only the declaration of the methods and fields, but not the implementation  |
