@@ -11,7 +11,7 @@ https://nccasia.github.io/ncc-type-script/
 
 - never
 
-## Interface
+## [Interface] (https://github.com/nccasia/ncc-type-script/blob/main/lessons/05-interface.md)
 - Inline
 - Explicit
 - Optional properties
