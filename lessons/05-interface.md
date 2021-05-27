@@ -15,3 +15,4 @@ Following are the notable differences between class and an interface.
 |  **Constructor** | A class can have a constructor  | An interface cannot have a constructor  |
 |  **Implement/Extend** | A class can extend only one class and can implement any number of the interface  | An interface can extend more than one interfaces but cannot implement any interface.  |
 
+##### Optional Properties
