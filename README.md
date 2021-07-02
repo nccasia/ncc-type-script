@@ -22,7 +22,7 @@ https://nccasia.github.io/ncc-type-script/
 - Type alias
 - Function type
 - Union & Intersection Types
-- Generic
+- [Generic](https://github.com/nccasia/ncc-type-script/blob/main/lessons/06-generic-type.md)
 - Class
 - Enum
 ## Declaration file
