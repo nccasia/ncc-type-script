@@ -5,7 +5,7 @@ https://nccasia.github.io/ncc-type-script/
 # NCC type-script
 ## [Overview](https://github.com/nccasia/ncc-type-script/blob/main/lessons/00-overview.md)
 
-## Basic type
+## [Basic type](https://github.com/nccasia/ncc-type-script/blob/main/lessons/03-basic-type.md)
 
 - any, void, boolean, number, string, null, undefined, Array<string>, tuple, string | null | undefined
 
@@ -32,7 +32,7 @@ https://nccasia.github.io/ncc-type-script/
 - property decorator
 - accessor decorator
 - parameter decorator
-## Metadata reflection
+## [Metadata reflection](https://github.com/nccasia/ncc-type-script/blob/main/lessons/metadata-reflection.md)
 ## [Static Type Checking](https://github.com/nccasia/ncc-type-script/blob/main/lessons/02-static-type-checking.md)
 https://docs.google.com/spreadsheets/d/10PG80jN6JebA-rpDfwd5dz-crpHFXg1OWn3dD5SSAAA/edit#gid=0
 
