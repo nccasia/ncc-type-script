@@ -25,7 +25,7 @@ https://nccasia.github.io/ncc-type-script/
 - [Generic](https://github.com/nccasia/ncc-type-script/blob/main/lessons/06-generics-type.md)
 - Class
 - Enum
-## Declaration file
+## [Declaration file](https://github.com/nccasia/ncc-type-script/blob/main/lessons/04-declaration-file.md)
 ## [Decorator](https://github.com/nccasia/ncc-type-script/blob/main/lessons/01-decorator.md)
 - class decorator
 - method decorator
